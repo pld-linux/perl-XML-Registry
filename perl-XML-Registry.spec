@@ -1,11 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Registry
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML-Registry perl module
 Summary(pl):	Modu³ perla XML-Registry
 Name:		perl-XML-Registry
 Version:	0.02
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -21,7 +21,7 @@ XML-Registry - module for loading and saving an XML registry.
 XML-Registry - modu³ do ³adowania i zapisywania rejestru XML.
 
 %prep
-%setup -q -n XML-Registry-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
