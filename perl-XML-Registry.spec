@@ -26,7 +26,7 @@ XML::Registry - modu³ do ³adowania i zapisywania rejestru XML.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
