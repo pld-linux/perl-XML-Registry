@@ -25,7 +25,7 @@ XML-Registry - modu³ do ³adowania i zapisywania rejestru XML.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
