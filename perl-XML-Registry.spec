@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Registry
-Summary:	XML-Registry perl module
-Summary(pl):	Modu³ perla XML-Registry
+Summary:	XML::Registry perl module
+Summary(pl):	Modu³ perla XML::Registry
 Name:		perl-XML-Registry
 Version:	0.02
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-XML-Registry - module for loading and saving an XML registry.
+XML::Registry - module for loading and saving an XML registry.
 
 %description -l pl
-XML-Registry - modu³ do ³adowania i zapisywania rejestru XML.
+XML::Registry - modu³ do ³adowania i zapisywania rejestru XML.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
