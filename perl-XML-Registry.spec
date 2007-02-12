@@ -2,7 +2,7 @@
 %define		pdir	XML
 %define		pnam	Registry
 Summary:	XML::Registry perl module
-Summary(pl):	Modu≥ perla XML::Registry
+Summary(pl.UTF-8):   Modu≈Ç perla XML::Registry
 Name:		perl-XML-Registry
 Version:	0.02
 Release:	10
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XML::Registry - module for loading and saving an XML registry.
 
-%description -l pl
-XML::Registry - modu≥ do ≥adowania i zapisywania rejestru XML.
+%description -l pl.UTF-8
+XML::Registry - modu≈Ç do ≈Çadowania i zapisywania rejestru XML.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
