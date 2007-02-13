@@ -2,7 +2,7 @@
 %define		pdir	XML
 %define		pnam	Registry
 Summary:	XML::Registry perl module
-Summary(pl.UTF-8):   Moduł perla XML::Registry
+Summary(pl.UTF-8):	Moduł perla XML::Registry
 Name:		perl-XML-Registry
 Version:	0.02
 Release:	10
