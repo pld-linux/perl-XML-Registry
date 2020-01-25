@@ -1,6 +1,5 @@
 %define		pdir	XML
 %define		pnam	Registry
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Registry perl module
 Summary(pl.UTF-8):	Moduł perla XML::Registry
 Name:		perl-XML-Registry
