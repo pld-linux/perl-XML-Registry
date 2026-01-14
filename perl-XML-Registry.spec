@@ -4,7 +4,7 @@ Summary:	XML::Registry perl module
 Summary(pl.UTF-8):	Moduł perla XML::Registry
 Name:		perl-XML-Registry
 Version:	0.02
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
